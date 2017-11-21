@@ -33,35 +33,31 @@ TIP: Make sure to test your code with different values. For example,
 var room = "dining room";
 var suspect = "Mr. Parkes";
 
-var weapon = "knife";
+var weapon = "";
 var solved = false;
 
 if (room === "dining room") {
+  weapon = "knife";
   if (suspect === "Mr. Parkes") {
-    if (weapon === "knife") {
-      solved = "true";
-    }
-  }
-} else if (room === "ballrom") {
-  if (suspect === "Mr. Kalehoff") {
-    if (weapon === "poison") {
-      solved = "true";
-    }
+    solved = true;
   }
 } else if (room === "gallery") {
+  weapon = "trophy";
   if (suspect === "Ms. Van Cleve") {
-    if (weapon === "trophy") {
-      solved = "true";
-    }
+    solved = true;
   }
 } else if (room === "billiards room") {
+  weapon = "pool stick";
   if (suspect === "Mrs. Sparr") {
-    if (weapon === "pool stick") {
-      solved = "true";
-    }
+    solved = true;
+  }
+} else if (room === "ballroom") {
+  weapon = "poison";
+  if (suspect === "Mr. Kalehoff") {
+    solved = true;
   }
 } else {
-  solved = "false";
+  solved = false;
 }
 
 if (solved) {
