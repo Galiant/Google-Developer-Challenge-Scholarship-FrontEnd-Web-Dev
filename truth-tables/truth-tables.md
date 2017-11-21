@@ -9,7 +9,7 @@
 |  false	|  false	|   false  |
 
 ### || (OR)
-|    A	  |    B	  |  A OR B  |
+|    A	  |    B	  |  A II B  |
 |:-------:|:-------:|:--------:|
 |  true	  |  true	  |   true   |
 |  true	  |  false	|   true   |
