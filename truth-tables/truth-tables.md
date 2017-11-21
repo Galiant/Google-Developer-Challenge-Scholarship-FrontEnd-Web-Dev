@@ -1,4 +1,4 @@
-# Truth tables for logical AND ( && ) and logical OR ( || ).
+## Truth tables for logical AND ( && ) and logical OR ( || ).
 
 ### && (AND)
 |    A	  |    B	  |  A && B  |
