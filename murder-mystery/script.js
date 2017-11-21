@@ -30,10 +30,10 @@ TIP: Make sure to test your code with different values. For example,
   If room equals gallery and suspect equals Ms. Van Cleve, then Ms. Van Cleve did it in the gallery with the trophy! should be printed to the console.
  */
 
-var room = "gallery";
-var suspect = "Ms. Van Cleve";
+var room = "dining room";
+var suspect = "Mr. Parkes";
 
-var weapon = "trophy";
+var weapon = "knife";
 var solved = false;
 
 if (room === "dining room") {
