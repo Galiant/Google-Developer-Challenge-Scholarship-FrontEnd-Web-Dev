@@ -11,7 +11,7 @@ Loop through the numbers 1 to 100
 
 TIP: A number x is divisible by a number y if the answer to x / y has a remainder of 0. For example, 10 is divisible by 2 because 10 / 2 = 5 with no remainder. You can check if a number is divisible by another number by checking if x % y === 0.
 
-We're going to have you program your own version of FizzBuzz called "JuliaJames" (yes, imaginative, right?) Keep in mind that in an interview, you would want to write efficient code with very little duplication. We don't want you to worry about that for this question. Just focus on practicing using loops.
+We're going to have you program your own version of FizzBuzz called "JuliaJames" (yes, imaginative, right?).
 
 Directions:
 
@@ -32,7 +32,7 @@ while (x < 21) {
     console.log("Julia");
   } else if (x % 5 === 0) {
     console.log("James");
-  } else if (x % 3 > 0 || x % 5 > 0) {
+  } else {
     console.log(x);
   }
   x = x + 1;
