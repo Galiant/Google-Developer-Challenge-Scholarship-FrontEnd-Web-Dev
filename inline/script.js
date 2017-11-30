@@ -19,11 +19,11 @@ function emotions(myString, myFunc) {
 // call the emotions function here and pass in an
 // inline function expression
 
-emotions("happy", function laugh(num){
+emotions("happy", function laugh(num) {
   var laughNumber = "";
   var text = "ha";
   for (var x = 0; x < num; x++) {
-      laughNumber += text;
+    laughNumber += text;
   }
   return laughNumber + "!";
 });
