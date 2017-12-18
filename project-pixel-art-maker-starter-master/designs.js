@@ -2,7 +2,14 @@ $(function() {
   // When size is submitted by the user, call makeGrid()
   function makeGrid(gridHeight, gridWidth) {
     var table = $("#pixel_canvas");
-    var color = $("#colorPicker");
+
+    //Listen for cell clicks
+    table.on("click", "td", function() {
+      //Get color from color picker
+      var color = $("#colorPicker").val();
+      //Apply color to cell
+      $(this).attr("bgcolor", color);
+    });
 
     // Get number of grid's height end width
     var gridHeight = $("#input_height").val();
