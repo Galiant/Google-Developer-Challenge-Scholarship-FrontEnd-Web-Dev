@@ -11,6 +11,9 @@ $(function() {
       $(this).attr("bgcolor", color);
     });
 
+    //Reset to empty table --- in case one already created
+    table.children().remove();
+
     // Get number of grid's height end width
     var gridHeight = $("#input_height").val();
     var gridWidth = $("#input_width").val();
