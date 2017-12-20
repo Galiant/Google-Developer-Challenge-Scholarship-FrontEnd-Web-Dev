@@ -29,6 +29,7 @@ $(function() {
       }
     }
   }
+
   // Event listeners
   $("#submit").click(function(event) {
     makeGrid();
